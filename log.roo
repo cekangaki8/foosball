@@ -1,0 +1,18 @@
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2015-10-07 18:14:41
+project foosball
+jpa setup --database H2_IN_MEMORY --provider HIBERNATE 
+database introspect --schema foosball
+database reverse engineer --schema foosball --package ~.com.dpwn.model
+web mvc setup
+web mvc all --package ~.com.dpwn.web
+service all --interfacePackage ~.com.dpwn.service
+repository jpa --interface ~.com.dpwn.repository.FoosballuserRepository --entity ~.com.dpwn.model.Foosballuser
+repository jpa --interface ~.com.dpwn.repository.MatchRepository --entity ~.com.dpwn.model.Match
+repository jpa --interface ~.com.dpwn.repository.TeamRepository --entity ~.com.dpwn.model.Team
+repository jpa --interface ~.com.dpwn.repository.UserRatingsRepository --entity ~.com.dpwn.model.UserRatings
+repository jpa --interface ~.com.dpwn.repository.UserTeamRepository --entity ~.com.dpwn.model.UserTeam
+json all --deepSerialize 
+web mvc json all
+web mvc update tags 
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2015-10-07 18:51:04

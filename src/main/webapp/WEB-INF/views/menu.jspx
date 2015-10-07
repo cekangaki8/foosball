@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_userratings" z="nP9SrGlFFf0AnfZzD6/131TnY/c=">
+            <menu:item id="i_userratings_new" messageCode="global_menu_new" url="/userratingses?form" z="UNb/HJcM5DeIQJclL2H+d5rvRNM="/>
+            <menu:item id="i_userratings_list" messageCode="global_menu_list" url="/userratingses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pQPCk66HMkkaz35R10tLMojHNaw="/>
+        </menu:category>
+        <menu:category id="c_match" z="FHslHW69KcFBjc/rUP5+K83OuvE=">
+            <menu:item id="i_match_new" messageCode="global_menu_new" url="/matches?form" z="UBa7xnyTvFRs5H+0AIn9HUXu6CI="/>
+            <menu:item id="i_match_list" messageCode="global_menu_list" url="/matches?page=1&amp;size=${empty param.size ? 10 : param.size}" z="UqLzLwTtsWkva8dA8QAMTkyN1Rk="/>
+        </menu:category>
+        <menu:category id="c_userteam" z="B8uCSAnT8lfGvHyL4Ir9TygjoV4=">
+            <menu:item id="i_userteam_new" messageCode="global_menu_new" url="/userteams?form" z="eBcn3GxJver2hITxVc1F1ukbdvk="/>
+            <menu:item id="i_userteam_list" messageCode="global_menu_list" url="/userteams?page=1&amp;size=${empty param.size ? 10 : param.size}" z="2Wf4luvQOy/Or3ZgEdS4c/TOa9Y="/>
+        </menu:category>
+        <menu:category id="c_foosballuser" z="QDxUtPU7/EFDUmbdru0s9ImWFpo=">
+            <menu:item id="i_foosballuser_new" messageCode="global_menu_new" url="/foosballusers?form" z="x5/QQ1ypvOCKJhjxCK07xjwqcMA="/>
+            <menu:item id="i_foosballuser_list" messageCode="global_menu_list" url="/foosballusers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="QjSteIGCdiBXy+iqoR1e6cnVfx8="/>
+        </menu:category>
+        <menu:category id="c_team" z="ohZmKV2mHAiozGa+l7W8lVsp36Q=">
+            <menu:item id="i_team_new" messageCode="global_menu_new" url="/teams?form" z="4tXqOwL6AGKXY3eI3MjIlHBiYRc="/>
+            <menu:item id="i_team_list" messageCode="global_menu_list" url="/teams?page=1&amp;size=${empty param.size ? 10 : param.size}" z="e0UEGo6L31cC31D4lgkjPEbpROM="/>
+        </menu:category>
+    </menu:menu>
+</div>

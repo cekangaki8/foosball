@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_foosball_com_dpwn_model_Team" object="${team}" path="/teams" z="Zkx0tt+KIDBylJmoEydY2z8IV9s=">
+        <field:display field="teamname" id="s_foosball_com_dpwn_model_Team_teamname" object="${team}" z="MmTqi9WRifeRHT/2GH6/lr3/NHo="/>
+        <field:display field="numberofgames" id="s_foosball_com_dpwn_model_Team_numberofgames" object="${team}" z="2TrLM30TbJgO9dBJuz9S0+g3i4s="/>
+        <field:display field="cumulativepoint" id="s_foosball_com_dpwn_model_Team_cumulativepoint" object="${team}" z="qlW30obx8PBfRQAe4LYAFFEIQdU="/>
+        <field:display field="rank" id="s_foosball_com_dpwn_model_Team_rank" object="${team}" z="+AQN21Ed+jWMm4adLXah35R/g4s="/>
+    </page:show>
+</div>

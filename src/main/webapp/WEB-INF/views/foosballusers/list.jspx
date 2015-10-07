@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_foosball_com_dpwn_model_Foosballuser" items="${foosballusers}" z="Cubg0J8T4Dnbw9QjvDIKZyRdJKA=">
+        <table:table data="${foosballusers}" id="l_foosball_com_dpwn_model_Foosballuser" path="/foosballusers" z="yB3iTnba5dya/POb4GXmoUwCeUQ=">
+            <table:column id="c_foosball_com_dpwn_model_Foosballuser_userRatings" property="userRatings" z="fbLyXMCRSZG1950P8B6JGhmX4dg="/>
+            <table:column id="c_foosball_com_dpwn_model_Foosballuser_username" property="username" z="sf7dDWJpEV5N0d4G+TnkDwIasMc="/>
+            <table:column id="c_foosball_com_dpwn_model_Foosballuser_firstname" property="firstname" z="eXbXGfdZ06oBbNIQpsjEvlDIq+I="/>
+            <table:column id="c_foosball_com_dpwn_model_Foosballuser_lastname" property="lastname" z="BMKAsZJ/iOocNCsu8C5eyKDTMMo="/>
+            <table:column id="c_foosball_com_dpwn_model_Foosballuser_password" property="password" z="TQcQqeuhAheqnFlcXZ+ZiAaREkE="/>
+        </table:table>
+    </page:list>
+</div>

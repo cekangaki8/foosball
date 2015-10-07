@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_foosball_com_dpwn_model_Match" items="${matches}" z="Y/xEzDjQPw3+VawNp7bh1JLwOh8=">
+        <table:table data="${matches}" id="l_foosball_com_dpwn_model_Match" path="/matches" z="nJhC3fyDqpCUcdD98Ni1JpSoutw=">
+            <table:column id="c_foosball_com_dpwn_model_Match_firstteamId" property="firstteamId" z="Z1qbdqbEpCMB+mv1mLy69/lciP0="/>
+            <table:column id="c_foosball_com_dpwn_model_Match_secondteamId" property="secondteamId" z="yeEqjnLK4gOvXlDBMWukIbcP0E4="/>
+            <table:column id="c_foosball_com_dpwn_model_Match_firstscore" property="firstscore" z="c8tC0KHOmr+lHep5QAW85FKXErg="/>
+            <table:column id="c_foosball_com_dpwn_model_Match_secondscore" property="secondscore" z="I6qp48arTWl8KaiC8LuJ/F6E4dw="/>
+        </table:table>
+    </page:list>
+</div>
